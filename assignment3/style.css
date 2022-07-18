@@ -1,0 +1,110 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.bg {
+    background-image: url("wave1.gif");
+    /*background: slategray;*/
+    background-size: cover;
+    overflow: scroll;
+    min-height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+
+
+}
+
+/* ------------------ clock ------------ */
+
+.clock-div {
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+
+}
+
+.clock-img {
+    width: 100%;
+    height: 100%;
+    color: rgba(155, 255, 255, 0.2);
+    filter: grayscale(10) invert(10);
+    background-color: rgba(155, 255, 255, 0.2);
+    border-radius: 100%;
+    position: center;
+        opacity: 0.6;
+
+}
+
+.long-hand-img {
+    width: 40%;
+    filter: grayscale(1) invert(1);
+    position: absolute;
+    top: 39.5%;
+    left: 50%;
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 0 50%;
+
+    animation: long-hand-rotate 10s both linear;
+}
+
+.short-hand-img {
+    width: 30%;
+    filter: grayscale(1) invert(1);
+    position: absolute;
+    top: 41.5%;
+    left: 50%;
+    transform: rotate(0deg);
+    -webkit-transform-origin: 0 50%;
+
+    animation: short-hand-rotate 10s both linear;
+
+}
+
+.clock-dot {
+    z-index: 10;
+    border: 7px white solid;
+    position: absolute;
+    top: 47.5%;
+    left: 48%;
+    border-radius: 50%;
+}
+
+/* ------------------ gray box ------------ */
+.gray-box-div {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    background-color: rgba(255, 246, 246, 0.2);
+    padding: 0 2% 1% 2%;
+    width: 40%;
+    min-height: 1%;
+    overflow: hidden;
+
+}
+
+.content-in-box {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center();
+    font-size: 1vw;
+
+}
+
+/* ------------------ animation for clock ------------ */
+
+@keyframes long-hand-rotate {
+    0% {transform: rotate(-90deg);}
+    100% {transform: rotate(270deg);}
+}
+
+@keyframes short-hand-rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(30deg);}
+}
