@@ -1,0 +1,203 @@
+body {
+    background-color: #fafdc9;
+}
+.heading {
+    padding: 6%;
+}
+
+#title {
+    position: absolute;
+    top:0;
+    left: 10px;
+    z-index: 10;
+    color: #112D4E;
+}
+
+.dancer {
+    width: 7%;
+    height: auto;
+    border-radius: 30%;
+    position: absolute;
+    top: 13px;
+    left: 25px;
+}
+
+.logo {
+    width: 6%;
+    height: auto;
+    margin: 0 14px 30px 0
+}
+
+#map {
+    width: 4%;
+    height: auto;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+
+
+.div1 {
+    background-color: #a77c4b;
+    border: #112D4E solid 3px;
+    padding: 2% 5% 2% 5%;
+
+}
+
+.main-page-intro-img {
+    max-width: 50%;
+
+}
+
+.main-page-intro-text {
+    max-width: 50%;
+    font-size: 1.5vw;
+}
+
+.main-page-intro-div {
+    display: flex;
+}
+
+
+.font1vw {
+    font-size: 1.3vw;
+}
+
+
+.quarry_photo {
+    width: 100%;
+    border: #112D4E 3px solid;
+}
+
+.jacob_photo {
+    width: 100%;
+    border: #112D4E 3px solid;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+tbody {
+    border-color: white;
+    border: 2px solid;
+}
+
+.darker_row {
+    background-color: #3F72AF;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-row {
+    display: flex;
+
+}
+
+.footer-links{
+    border-right: 1px black solid;
+    margin-right: 1%;
+    padding-right: 1%
+}
+
+footer {
+    text-align: center;
+}
+
+.special-hr {
+    border: 0.5px solid #3F72AF;
+    width: 100%;
+}
+
+#title-in-box {
+    text-align: center;
+    color: #DBE2EF;
+}
+
+a {
+    color: #3F72AF;
+}
+
+
+/* ---------------------- Contact ------------------- */
+
+#contact-heading {
+    text-align: center;
+}
+
+#contact-address {
+    float: left;
+    font-size: 1.3vw;
+}
+
+#contact-form {
+    float: right;
+}
+
+#send-button {
+    float: right;
+    background-color: #3F72AF;
+    color: white;
+    width: 20%;
+    margin-right: 16%;
+}
+
+/* ---------------------- pages html ------------------- */
+
+.aimg {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-page-container {
+    /*border: #112D4E 2px solid;*/
+    display: flex;
+    margin: 5%;
+
+}
+
+.adiv {
+    width: 33%;
+    border: #112D4E 3px solid;
+    margin-right: 1%;
+    font-size: 1.8vw;
+}
+
+.intro-page-container {
+    padding: 1%;
+    text-align: center;
+    font-size: 1.8vw;
+    background-color: rgba(208, 208, 227, 0.45);
+}
+
+.page-title {
+    text-align: center;
+}
+
+/* ---------------------- FONTS ------------------- */
+
+p {
+    font-family: Montserrat, serif;
+    color: #112D4E;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 8vw;
+    color: #112D4E;
+}
+
+h3 {
+   font-family: Montserrat, sans-serif;
+}
+
+figcaption {
+    color: lightblue;
+    font-family: Montserrat, serif;
+}
