@@ -11,6 +11,7 @@ body, html {
 .container {
     text-align: center;
     line-height: 1.5;
+    max-width: 80%; 
 }
 
 h1 {
@@ -32,7 +33,7 @@ h1 {
 
 .menu li a {
     text-decoration: none;
-    font-size: 15em; /* Larger size for menu items */
+    font-size: 5em; /* Larger size for menu items */
     color: #000;
     font-weight: 100; /* Thin font weight */
     letter-spacing: 0.1em;
