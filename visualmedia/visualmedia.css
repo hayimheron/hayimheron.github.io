@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #000;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* Container for scrolling gallery */
@@ -13,8 +13,8 @@ body, html {
     overflow-x: auto; /* Enable horizontal scrolling */
     scroll-behavior: smooth; /* Smooth scrolling experience */
     height: 100vh; /* Full viewport height */
-    align-items: center;
     padding: 0;
+    gap: 0; /* Remove any space between items */
 }
 
 .gallery-container::-webkit-scrollbar {
@@ -28,11 +28,11 @@ body, html {
 
 .gallery-item {
     flex: 0 0 auto;
+    width: 100vw; /* Full viewport width for each item */
     height: 100vh; /* Full viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #333; /* Border between items */
     background-color: #000;
 }
 
@@ -40,11 +40,11 @@ body, html {
     width: 100vw; /* Full viewport width for each item */
     height: 100vh; /* Full viewport height */
     object-fit: cover;
-    border: none;
+    border: none; /* Remove any borders */
 }
 
 .gallery-item:last-child {
-    border-right: none; /* Remove border on the last item */
+    border-right: none; /* No border on the last item */
 }
 
 /* Styling for header or navigation if needed */
