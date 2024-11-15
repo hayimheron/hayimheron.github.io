@@ -28,12 +28,12 @@ h1 {
 }
 
 .menu li {
-    margin: 15px 0; /* Spacing between menu items */
+    margin: 5px 0; /* Spacing between menu items */
 }
 
 .menu li a {
     text-decoration: none;
-    font-size: 3em; /* Larger size for menu items */
+    font-size: 2em; /* Larger size for menu items */
     color: #000;
     font-weight: 100; /* Thin font weight */
     letter-spacing: 0.1em;
