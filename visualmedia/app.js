@@ -1,5 +1,5 @@
 // Define the correct password for accessing the gallery
-const correctPassword = "urhired"; // Replace with your desired password
+const correctPassword = "red"; // Replace with your desired password
 
 function checkPassword() {
     const passwordInput = document.getElementById("password-input").value;
