@@ -1,33 +1,38 @@
-
-
-
 /* Body styling */
 body, html {
     height: 100%;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #000;
-    overflow-x: hidden; /* Prevent horizontal scroll on the body */
+    overflow-x: hidden;
 }
 
 /* Container for scrolling gallery */
 .gallery-container {
     display: flex;
     overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Snap scrolling for each item */
+    scroll-behavior: smooth; /* Smooth scrolling experience */
     height: 100vh; /* Full viewport height */
     align-items: center;
 }
 
+.gallery-container::-webkit-scrollbar {
+    height: 8px; /* Custom scrollbar height */
+}
+
+.gallery-container::-webkit-scrollbar-thumb {
+    background-color: #555; /* Custom scrollbar color */
+    border-radius: 4px;
+}
+
 .gallery-item {
-    flex: 0 0 auto; /* Prevent items from shrinking */
-    width: 100vw; /* Full viewport width */
+    flex: 0 0 auto;
+    width: 100vw; /* Full viewport width for each item */
     height: 100vh; /* Full viewport height */
-    scroll-snap-align: start; /* Snap each item to start */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #333; /* Thin border between items */
+    border-right: 1px solid #333; /* Border between items */
     background-color: #000;
 }
 
