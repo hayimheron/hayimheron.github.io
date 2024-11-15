@@ -18,7 +18,7 @@ body, html {
 }
 
 h1 {
-    font-size: 4em; /* Moderate size for the title */
+    font-size: 10em; /* Moderate size for the title */
     font-weight: 300;
     letter-spacing: 0.05em;
     margin: 0.3em 0;
@@ -36,7 +36,7 @@ h1 {
 
 .menu li a {
     text-decoration: none;
-    font-size: 3.8em; /* Moderate size for menu items */
+    font-size: 10em; /* Moderate size for menu items */
     color: #000;
     font-weight: 100;
     letter-spacing: 0.05em;
