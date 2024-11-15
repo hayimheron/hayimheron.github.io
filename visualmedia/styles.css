@@ -28,7 +28,7 @@ h1 {
 }
 
 .menu li {
-    margin: 5px 0; /* Spacing between menu items */
+    margin: 1px 0; /* Spacing between menu items */
 }
 
 .menu li a {
@@ -56,42 +56,6 @@ input, button {
     margin: 10px;
 }
 
-
-/* body, html{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-} */
-
-
-/*  .bg {
-    background-image: url("wave1copy.gif");
-    background-size: cover;
-    overflow: scroll;
-    min-height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-    position: relative;
-}
- */
-
-/* .gallery-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.gallery-button:hover {
-    background-color: #555;
-} 
- */
 
 
 
