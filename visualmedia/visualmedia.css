@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #000;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /* Container for scrolling gallery */
@@ -14,6 +14,7 @@ body, html {
     scroll-behavior: smooth; /* Smooth scrolling experience */
     height: 100vh; /* Full viewport height */
     align-items: center;
+    padding: 0;
 }
 
 .gallery-container::-webkit-scrollbar {
@@ -27,7 +28,6 @@ body, html {
 
 .gallery-item {
     flex: 0 0 auto;
-    width: 100vw; /* Full viewport width for each item */
     height: 100vh; /* Full viewport height */
     display: flex;
     justify-content: center;
@@ -36,10 +36,11 @@ body, html {
     background-color: #000;
 }
 
-.gallery-item img, .gallery-item iframe {
-    max-width: 100%; /* Centered media within each item */
-    max-height: 100%;
+.gallery-item iframe {
+    width: 100vw; /* Full viewport width for each item */
+    height: 100vh; /* Full viewport height */
     object-fit: cover;
+    border: none;
 }
 
 .gallery-item:last-child {
