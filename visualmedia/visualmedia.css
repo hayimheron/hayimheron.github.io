@@ -1,0 +1,67 @@
+
+
+
+/* Body styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    overflow-x: hidden; /* Prevent horizontal scroll on the body */
+}
+
+/* Container for scrolling gallery */
+.gallery-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap scrolling for each item */
+    height: 100vh; /* Full viewport height */
+    align-items: center;
+}
+
+.gallery-item {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    scroll-snap-align: start; /* Snap each item to start */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #333; /* Thin border between items */
+    background-color: #000;
+}
+
+.gallery-item img, .gallery-item iframe {
+    max-width: 90%; /* Centered media within each item */
+    max-height: 90%;
+    object-fit: cover;
+}
+
+.gallery-item:last-child {
+    border-right: none; /* Remove border on the last item */
+}
+
+/* Styling for header or navigation if needed */
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button.gallery-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.gallery-button:hover {
+    background-color: #555;
+}
