@@ -1,25 +1,25 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
 }
 
-
-
 .container {
     text-align: center;
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 4em; /* Larger size for the title */
-    font-weight: 300; /* Lighter font weight for thinner appearance */
-    letter-spacing: 0.1em;
-    margin: 0.2em 0;
+    font-size: 5em; /* Larger size for the title */
+    font-weight: 400; /* Medium weight for a bolder look */
+    letter-spacing: 0.15em;
+    margin: 0.1em 0;
 }
+
 .menu {
     list-style-type: none;
     padding: 0;
@@ -32,14 +32,16 @@ h1 {
 
 .menu li a {
     text-decoration: none;
-    font-size: 2em; /* Larger size for menu items */
+    font-size: 3em; /* Larger size for menu items */
     color: #000;
-    font-weight: 300; /* Thinner font weight */
-    letter-spacing: 0.05em;
+    font-weight: 200; /* Thin font weight */
+    letter-spacing: 0.1em;
 }
+
 .menu li a:hover {
     color: #555;
 }
+
 
 input, button {
     padding: 10px;
