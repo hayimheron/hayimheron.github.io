@@ -64,9 +64,8 @@ input, button {
 } */
 
 
-.bg {
+/*  .bg {
     background-image: url("wave1copy.gif");
-    /*background: slategray;*/
     background-size: cover;
     overflow: scroll;
     min-height: 100%;
@@ -75,12 +74,10 @@ input, button {
     background-repeat: no-repeat;
     z-index: 1;
     position: relative;
-
-
 }
+ */
 
-
-.gallery-button {
+/* .gallery-button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #333;
@@ -92,7 +89,8 @@ input, button {
 
 .gallery-button:hover {
     background-color: #555;
-}
+} 
+ */
 
 
 
