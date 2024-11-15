@@ -15,9 +15,9 @@ body, html {
 }
 
 h1 {
-    font-size: 5em; /* Larger size for the title */
-    font-weight: 400; /* Medium weight for a bolder look */
-    letter-spacing: 0.15em;
+    font-size: 3em; /* Larger size for the title */
+    font-weight: 300; /* Medium weight for a bolder look */
+    letter-spacing: 0.1em;
     margin: 0.1em 0;
 }
 
