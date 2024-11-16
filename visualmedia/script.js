@@ -4,26 +4,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const images = [
         "photojournalism/35.jpg", //cufflinks
-        "photojournalism/36.JPG",
-        "photojournalism/11.png",
-        "photojournalism/12.png",
+        "photojournalism/20.jpg", //girl eye
+        "photojournalism/36.JPG", //wild guy faces
+        "photojournalism/11.png", //women peeing
+        "photojournalism/12.png", //peeing
         "photojournalism/75.png", //chance
         "photojournalism/17.png",  //demi
         "photojournalism/2.png",  //alex honnold
-        "photojournalism/20.jpg",
-        "photojournalism/29.jpg",
-        "photojournalism/10.png",
+
+        "photojournalism/29.jpg", //sad dad
+        "photojournalism/10.png", //israel flag
 
 
-        "photojournalism/10.jpeg",
+        "photojournalism/10.jpeg", //jp slowshutter drag
 
 
 
         "photojournalism/13.png", //shower
 
-        "photojournalism/18.jpg",
+        "photojournalism/18.jpg", //slow shutter drag
 
-        "photojournalism/14.jpg",
+        "photojournalism/14.jpg", //andrea boyfriend
         "photojournalism/15.jpg",
         "photojournalism/16.jpg",
         "photojournalism/19.jpg",
