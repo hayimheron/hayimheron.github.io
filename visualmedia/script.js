@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/85.jpg",
         "photojournalism/86.jpg",
         "photojournalism/87.JPG",
-        "photojournalism/88.jpg",
+
         "photojournalism/89.jpg",
         "photojournalism/90.jpg",
         "photojournalism/11.png", //women peeing
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         "photojournalism/27.jpg",
 
-
+        //"photojournalism/88.jpg", rebekah hanging lamppost
         "photojournalism/3.jpg",
         "photojournalism/3.png",
         "photojournalism/30.jpg",
