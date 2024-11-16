@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/36.JPG", //wild guy faces
         "photojournalism/80.png",
         "photojournalism/81.jpg",
-        "photojournalism/82.jpg",
+        //"photojournalism/82.jpg", snow dancing jared
         "photojournalism/83.jpg",
         "photojournalism/84.jpg",
         "photojournalism/85.jpg",
