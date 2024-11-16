@@ -49,6 +49,6 @@ button:hover {
     flex: 0 0 auto;
     width: 100vw; /* Full viewport width for each image */
     height: 100vh; /* Full viewport height for each image */
-    object-fit: cover;
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+    border-right: 1px solid #333; /* Optional: Adds a border between items */
 }
-
