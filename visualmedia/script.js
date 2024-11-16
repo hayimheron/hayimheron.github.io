@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
+        "photojournalism/10.png",
         "photojournalism/17.png",
         "photojournalism/75.png",
         "photojournalism/2.png",
@@ -10,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/1.jpg",
         "photojournalism/1.png",
         "photojournalism/10.jpeg",
-        "photojournalism/10.png",
+
         "photojournalism/11.png",
         "photojournalism/18.jpg",
         "photojournalism/12.png",
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/21.jpg",
         "photojournalism/22.jpg",
         "photojournalism/23.jpg",
+        "photojournalism/9.jpeg",
         "photojournalism/24.jpg",
         "photojournalism/25.jpg",
         "photojournalism/26.jpg",
@@ -48,8 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/69.jpg",
         "photojournalism/7.png",
         "photojournalism/70.jpg",
-        "photojournalism/8.png",
-        "photojournalism/9.jpeg"
+        "photojournalism/8.png"
 
 
     ];
