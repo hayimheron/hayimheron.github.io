@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/26.jpg",
 
         "photojournalism/0.jpeg",
-        "photojournalism/1.jpg",
+        "photojournalism/1.jpg", //dance photo two on top each other
         
         "photojournalism/27.jpg",
 
