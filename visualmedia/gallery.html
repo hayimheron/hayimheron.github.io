@@ -9,10 +9,12 @@
 <body>
     <div class="container">
         <!-- Password Section -->
-        <h2>Enter Password to Access Gallery</h2>
-        <input type="password" id="password-input" placeholder="Password">
-        <button onclick="checkPassword()">Enter</button>
-        <p id="error-message" style="color: red;"></p>
+        <div id="login-section">
+            <h2>Enter Password to Access Gallery</h2>
+            <input type="password" id="password-input" placeholder="Password">
+            <button onclick="checkPassword()">Enter</button>
+            <p id="error-message" style="color: red;"></p>
+        </div>
 
         <!-- Gallery Section (Initially Hidden) -->
         <div id="gallery-section" style="display: none;">
@@ -30,9 +32,11 @@
         function checkPassword() {
             const input = document.getElementById("password-input").value;
             const errorMessage = document.getElementById("error-message");
+            const loginSection = document.getElementById("login-section");
             const gallerySection = document.getElementById("gallery-section");
 
             if (input === correctPassword) {
+                loginSection.style.display = "none"; // Hide login section
                 gallerySection.style.display = "block"; // Show the gallery
                 errorMessage.textContent = ""; // Clear error message
             } else {
