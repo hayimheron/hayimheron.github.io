@@ -6,12 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "images/photo1.jpg",
         "images/sunset.png",
         "images/family.jpeg",
-        "images/vacation.gif"
-    
+        "images/vacation.gif",
         "photojournalism/0.jpeg",
         "photojournalism/01.png",
         "photojournalism/1.jpg",
-    
         "photojournalism/1.png",
         "photojournalism/10.jpeg",
         "photojournalism/10.png",
