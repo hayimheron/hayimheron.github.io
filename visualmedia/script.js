@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
+        "photojournalism/35.jpg", //cufflinks
         "photojournalism/36.JPG",
         "photojournalism/11.png",
         "photojournalism/12.png",
@@ -50,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/32.png",
         "photojournalism/33.jpg",
         "photojournalism/34.png",
-        "photojournalism/35.jpg",
         "photojournalism/38.JPG",
         "photojournalism/39.JPG",
         "photojournalism/40.JPG",
