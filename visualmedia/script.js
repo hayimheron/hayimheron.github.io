@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         "photojournalism/13.png", //shower
 
-        "photojournalism/18.jpg", //slow shutter drag
+        //"photojournalism/18.jpg", //slow shutter drag
 
-        "photojournalism/14.jpg", //andrea boyfriend
-        "photojournalism/15.jpg",
+        "photojournalism/14.jpg", //slow shutter drag 
+        "photojournalism/15.jpg", //andrea boyfriend
         "photojournalism/16.jpg",
         "photojournalism/19.jpg",
         "photojournalism/2.jpg",
