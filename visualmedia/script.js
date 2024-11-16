@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
+        "photojournalism/47.jpg", //musk
         "photojournalism/35.jpg", //cufflinks
         "photojournalism/20.jpg", //girl eye
         "photojournalism/36.JPG", //wild guy faces
@@ -59,9 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/42.JPG",
         "photojournalism/43.JPG",
         "photojournalism/44.JPG",
-        "photojournalism/45.jpg",
-        "photojournalism/46.jpg",
-        "photojournalism/47.jpg",
+        "photojournalism/45.jpg", //dua
+        "photojournalism/46.jpg", //dancers
         "photojournalism/48.jpg",
         "photojournalism/49.jpg",
         "photojournalism/50.jpg",
