@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
-        "photojournalism/0.jpeg",
-        "photojournalism/01.png"
+        "visualmedia/photojournalism/0.jpeg",
+        "visualmedia/photojournalism/01.png"
 
 
     ];
