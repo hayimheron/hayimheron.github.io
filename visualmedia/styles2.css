@@ -43,15 +43,19 @@ button:hover {
     scroll-behavior: smooth; /* Smooth scrolling effect */
     gap: 0; /* Remove gaps between items */
     height: 100vh; /* Full viewport height */
+    align-items: center; /* Vertically center the images */
+    background-color: #111; /* Optional: Dark background for better contrast */
 }
 
 .gallery-item {
     flex: 0 0 auto; /* Ensure images don't shrink or grow */
-    max-width: 100%; /* Images should not exceed the container width */
-    max-height: 100%; /* Images should not exceed the container height */
-    width: auto; /* Maintain original aspect ratio */
-    height: auto; /* Maintain original aspect ratio */
-    object-fit: contain; /* Scale the image to fit without cropping */
-    margin: auto; /* Center images within their container */
-    border-right: 1px solid #333; /* Optional: Add a border between items */
+    max-width: 100%; /* Limit the width of the image to fit the container */
+    max-height: 100%; /* Limit the height of the image to fit the container */
+    width: auto; /* Maintain the image's aspect ratio */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: contain; /* Ensure the full image is visible without cropping */
+    margin: 0 auto; /* Center each image within its space */
+    padding: 10px; /* Add padding around each image */
+    border-right: 1px solid #333; /* Optional: Add a border between images */
+    background-color: #000; /* Optional: Background color for the image container */
 }
