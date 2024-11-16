@@ -3,10 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
-        "images/photo1.jpg",
-        "images/sunset.png",
-        "images/family.jpeg",
-        "images/vacation.gif",
         "photojournalism/0.jpeg",
         "photojournalism/01.png",
         "photojournalism/1.jpg",
