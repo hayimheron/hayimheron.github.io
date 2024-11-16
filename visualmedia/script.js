@@ -6,6 +6,19 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/0.jpeg",
         "photojournalism/01.png"
 
+
+    ];
+
+    images.forEach((src) => {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = src.split("/").pop(); // Use the filename as alt text
+        img.classList.add("gallery-item");
+        galleryContainer.appendChild(img);
+    });
+});
+
+
         /* ,
         "photojournalism/1.jpg",
         "photojournalism/1.png",
@@ -54,13 +67,3 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/9.jpeg"
         */
     
-    ];
-
-    images.forEach((src) => {
-        const img = document.createElement("img");
-        img.src = src;
-        img.alt = src.split("/").pop(); // Use the filename as alt text
-        img.classList.add("gallery-item");
-        galleryContainer.appendChild(img);
-    });
-});
