@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Reference the gallery container where images will be dynamically added
+    console.log("JavaScript is running"); // This should show in the browser console
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
@@ -10,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     images.forEach((src) => {
+        console.log(`Processing image: ${src}`); // Check if this logs correctly
         const img = document.createElement("img");
         img.src = src;
         img.alt = src.split("/").pop(); // Use the filename as alt text
@@ -17,6 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
         galleryContainer.appendChild(img);
     });
 });
+
+
+
 
 
         /* ,
