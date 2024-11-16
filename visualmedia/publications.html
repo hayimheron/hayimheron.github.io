@@ -12,16 +12,21 @@
         }
         .home-button {
             display: inline-block;
-            margin-bottom: 20px;
+            position: absolute; /* Places it at the top left */
+            top: 10px;
+            left: 10px;
             padding: 10px 20px;
-            background-color: #007BFF;
-            color: #ffffff;
-            text-decoration: none;
+            background-color: #333; /* Grey background */
+            color: #fff;            /* White text */
+            text-decoration: none;  /* Removes underline */
             border-radius: 5px;
             font-size: 16px;
         }
         .home-button:hover {
-            background-color: #0056b3;
+            background-color: #000; /* Black background on hover */
+        }
+        .container {
+            margin-top: 50px; /* Prevents content from overlapping the Home button */
         }
     </style>
 </head>
