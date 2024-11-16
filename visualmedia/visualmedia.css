@@ -41,7 +41,7 @@ body, html {
 
 .gallery-item img, .gallery-item iframe {
     max-width: 90%; /* Limit width to fit within the gallery */
-    max-height: 80%; /* Limit height to avoid overflow */
+    max-height: 90%; /* Limit height to avoid overflow */
     object-fit: contain; /* Ensure the full image is visible while maintaining aspect ratio */
     border: none; /* Remove any borders */
 }
