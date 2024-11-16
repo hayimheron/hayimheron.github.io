@@ -5,9 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="styles2.css">
+    <style>
+        /* Back Button Styling */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
+    <!-- Back Button -->
+    <button class="back-button" onclick="window.location.href='index.html'">Return to Home</button>
+
     <div class="container">
+        <!-- Gallery Section -->
+        <div id="gallery-section">
+            <h2>Photo Gallery</h2>
+            <div id="gallery" class="gallery-container">
+                <!-- Images will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
         <!-- Password Section -->
         <!-- 
         <div id="login-section">
@@ -18,15 +54,7 @@
         </div>
         -->
 
-        <!-- Gallery Section -->
-        <div id="gallery-section">
-            <h2>Photo Gallery</h2>
-            <div id="gallery" class="gallery-container">
-                <!-- Images will be dynamically added here -->
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+
 
     <!-- 
     <script>
@@ -49,7 +77,4 @@
         }
     </script>
     -->
-
-</body>
-</html>
 
