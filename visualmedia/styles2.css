@@ -50,7 +50,7 @@ button:hover {
 .gallery-item {
     flex: 0 0 auto;
     max-width: 100vw; /* Fit the image within the viewport width */
-    max-height: 90vh; /* Slightly reduce height to avoid scrolling */
+    max-height: 80vh; /* Slightly reduce height to avoid scrolling */
     width: auto; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure the entire image is visible */
