@@ -46,9 +46,12 @@ button:hover {
 }
 
 .gallery-item {
-    flex: 0 0 auto;
-    width: 100vw; /* Full viewport width for each image */
-    height: 100vh; /* Full viewport height for each image */
-    object-fit: cover; /* Ensures images maintain aspect ratio */
-    border-right: 1px solid #333; /* Optional: Adds a border between items */
+    flex: 0 0 auto; /* Ensure images don't shrink or grow */
+    max-width: 100%; /* Images should not exceed the container width */
+    max-height: 100%; /* Images should not exceed the container height */
+    width: auto; /* Maintain original aspect ratio */
+    height: auto; /* Maintain original aspect ratio */
+    object-fit: contain; /* Scale the image to fit without cropping */
+    margin: auto; /* Center images within their container */
+    border-right: 1px solid #333; /* Optional: Add a border between items */
 }
