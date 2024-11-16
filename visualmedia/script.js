@@ -3,20 +3,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
+        "photojournalism/12.png",
         "photojournalism/17.png",
         "photojournalism/75.png",
         "photojournalism/2.png",
         "photojournalism/20.jpg",
+        "photojournalism/29.jpg",
+        "photojournalism/10.png",
         "photojournalism/11.png",
         "photojournalism/36.JPG",
         "photojournalism/10.jpeg",
-        "photojournalism/10.png",
+
 
 
 
 
         "photojournalism/18.jpg",
-        "photojournalism/12.png",
         "photojournalism/13.png",
         "photojournalism/14.jpg",
         "photojournalism/15.jpg",
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         "photojournalism/27.jpg",
 
-        "photojournalism/29.jpg",
+
         "photojournalism/3.jpg",
         "photojournalism/3.png",
         "photojournalism/30.jpg",
