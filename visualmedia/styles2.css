@@ -41,16 +41,16 @@ button:hover {
     display: flex;
     overflow-x: auto; /* Enable horizontal scrolling */
     scroll-behavior: smooth; /* Smooth scrolling effect */
-    height: 100vh; /* Full viewport height */
-    align-items: center; /* Vertically center images */
-    gap: 0; /* Remove gaps between images */
+    gap: 0; /* Remove gaps between items */
+    height: 95vh; /* Slightly reduce viewport height for gallery */
+    align-items: center; /* Center images vertically */
     background-color: #000; /* Ensure a dark background */
 }
 
 .gallery-item {
     flex: 0 0 auto;
     max-width: 100vw; /* Fit the image within the viewport width */
-    max-height: 100vh; /* Fit the image within the viewport height */
+    max-height: 90vh; /* Slightly reduce height to avoid scrolling */
     width: auto; /* Maintain aspect ratio */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure the entire image is visible */
