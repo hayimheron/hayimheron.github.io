@@ -13,11 +13,11 @@
             margin-right: 20px;
         }
 
-        #contact-info {
+        #contact-info, #bio-info {
             display: none;
             font-size: 1.2em;
             color: #333;
-            margin-left: 10px; /* Space between "Contact" and the email */
+            margin-left: 10px; /* Space between link and the content */
             font-family: 'Montserrat', sans-serif;
         }
     </style>
@@ -28,7 +28,10 @@
         <ul class="menu">
             <li><a href="gallery.html">Photo</a></li>
             <li><a href="visualmedia.html">Video</a></li>
-            <li><a href="#">Bio</a></li>
+            <li>
+                <a href="#" onclick="showBio()">Bio</a>
+                <span id="bio-info"></span> <!-- Bio will appear here -->
+            </li>
             <li>
                 <a href="#" onclick="showContact()">Contact</a>
                 <span id="contact-info"></span> <!-- Email will appear here -->
@@ -36,11 +39,22 @@
         </ul>
     </div>
     <script>
+        // Function to display the bio
+        function showBio() {
+            const bioInfo = document.getElementById("bio-info");
+            if (bioInfo.style.display === "none" || bioInfo.style.display === "") {
+                bioInfo.textContent = "I am a two time college graduate. I am a native New Yorker, I picked up a phone/camera in 2013 interested in starting a Youtube channel, and by 2015 I upgraded to a serious camera. I got lucky in my first year pursuing a photography career after my first college degree in documentary film. My work was published in my dream papers through my work as a dance photographer and I had an easy time as result persuading established photographers to let me assist them. I assisted Richard Burbridge, Tina Tyrell, Alex Antitch and Roey Yohai and more. When the pandemic hit I was ready for a change and having an identity crisis and not pursuing the photography work I wanted to pursue I thought I should try something new. I eventually ended back banck at my alma mater studying Computer Science and Accounting. Its the best insurance policy I've invested in.  Now, I'm about to graduate and having moonighted as a wedding photographer during this time while back in school, found myself falling back in love with this kind of event/jounrnalistic medium and have figured out a way to make it work."; // Replace with your bio
+                bioInfo.style.display = "inline"; // Show the bio next to the button
+            } else {
+                bioInfo.style.display = "none"; // Hide the bio
+            }
+        }
+
         // Function to display the contact email
         function showContact() {
             const contactInfo = document.getElementById("contact-info");
             if (contactInfo.style.display === "none" || contactInfo.style.display === "") {
-                contactInfo.textContent = "hayimheron@gmail.com"; // Replace with your email
+                contactInfo.textContent = "hayimheron@gmail.com 9176125705"; // Replace with your email
                 contactInfo.style.display = "inline"; // Show the email next to the button
             } else {
                 contactInfo.style.display = "none"; // Hide the email
