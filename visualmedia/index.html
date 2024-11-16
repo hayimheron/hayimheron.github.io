@@ -6,6 +6,21 @@
     <title>Landing Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Optional: Additional Styling */
+        .menu li {
+            display: inline-block; /* Keeps menu items in a horizontal line */
+            margin-right: 20px;
+        }
+
+        #contact-info {
+            display: none;
+            font-size: 1.2em;
+            color: #333;
+            margin-left: 10px; /* Space between "Contact" and the email */
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -15,8 +30,23 @@
             <li><a href="visualmedia.html">Video</a></li>
             <li><a href="#">Bio</a></li>
             <li><a href="#">Shop</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+                <a href="#" onclick="showContact()">Contact</a>
+                <span id="contact-info"></span> <!-- Email will appear here -->
+            </li>
         </ul>
     </div>
+    <script>
+        // Function to display the contact email
+        function showContact() {
+            const contactInfo = document.getElementById("contact-info");
+            if (contactInfo.style.display === "none" || contactInfo.style.display === "") {
+                contactInfo.textContent = "yourname@example.com"; // Replace with your email
+                contactInfo.style.display = "inline"; // Show the email next to the button
+            } else {
+                contactInfo.style.display = "none"; // Hide the email
+            }
+        }
+    </script>
 </body>
 </html>
