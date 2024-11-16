@@ -53,15 +53,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     ];
+images.forEach((src) => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = src.split("/").pop(); // Use the filename as alt text
+    img.classList.add("gallery-item");
 
-    images.forEach((src) => {
-        const img = document.createElement("img");
-        img.src = src;
-        img.alt = src.split("/").pop(); // Use the filename as alt text
-        img.classList.add("gallery-item");
-        galleryContainer.appendChild(img);
-    });
+    // Debugging: Log errors if an image fails to load
+    img.onerror = () => {
+        console.error(`Failed to load image: ${src}`);
+    };
+
+    galleryContainer.appendChild(img);
 });
+
 
 
 
