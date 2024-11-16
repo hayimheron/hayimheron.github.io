@@ -28,12 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/21.jpg",
         "photojournalism/22.jpg",
         "photojournalism/23.jpg",
-        "photojournalism/9.jpeg",
+
         "photojournalism/28.jpg",
         "photojournalism/24.jpg",
         "photojournalism/25.jpg",
         "photojournalism/26.jpg",
 
+        "photojournalism/9.jpeg",
         "photojournalism/0.jpeg",
         "photojournalism/1.jpg", //dance photo two on top each other
         
