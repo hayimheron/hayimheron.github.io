@@ -7,12 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/17.png",
         "photojournalism/75.png",
         "photojournalism/2.png",
-        "photojournalism/0.jpeg",
-        "photojournalism/1.jpg",
-        "photojournalism/1.png",
+        "photojournalism/11.png",
+        "photojournalism/36.JPG",
         "photojournalism/10.jpeg",
 
-        "photojournalism/11.png",
+
+
+
         "photojournalism/18.jpg",
         "photojournalism/12.png",
         "photojournalism/13.png",
@@ -26,11 +27,16 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/22.jpg",
         "photojournalism/23.jpg",
         "photojournalism/9.jpeg",
+        "photojournalism/28.jpg",
         "photojournalism/24.jpg",
         "photojournalism/25.jpg",
         "photojournalism/26.jpg",
+
+        "photojournalism/0.jpeg",
+        "photojournalism/1.jpg",
+        
         "photojournalism/27.jpg",
-        "photojournalism/28.jpg",
+
         "photojournalism/29.jpg",
         "photojournalism/3.jpg",
         "photojournalism/3.png",
@@ -40,7 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/33.jpg",
         "photojournalism/34.png",
         "photojournalism/35.jpg",
-        "photojournalism/36.JPG",
         "photojournalism/4.jpg",
         "photojournalism/4.png",
         "photojournalism/5.jpeg",
@@ -50,7 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/69.jpg",
         "photojournalism/7.png",
         "photojournalism/70.jpg",
-        "photojournalism/8.png"
+        "photojournalism/8.png",
+        "photojournalism/1.png"
 
 
     ];
