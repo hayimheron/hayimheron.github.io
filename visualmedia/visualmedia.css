@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #000;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Disable horizontal scroll on the body */
 }
 
 /* Container for scrolling gallery */
@@ -12,9 +12,11 @@ body, html {
     display: flex;
     overflow-x: auto; /* Enable horizontal scrolling */
     scroll-behavior: smooth; /* Smooth scrolling experience */
-    height: 100vh; /* Full viewport height */
+    height: 85vh; /* Slightly reduce viewport height for gallery */
     padding: 0;
     gap: 0; /* Remove any space between items */
+    align-items: center; /* Vertically center the gallery items */
+    background-color: #000; /* Ensure a consistent dark background */
 }
 
 .gallery-container::-webkit-scrollbar {
@@ -28,18 +30,19 @@ body, html {
 
 .gallery-item {
     flex: 0 0 auto;
-    width: 100vw; /* Full viewport width for each item */
-    height: 100vh; /* Full viewport height */
+    max-width: 100vw; /* Limit the image width to viewport width */
+    max-height: 80vh; /* Reduce height to avoid vertical scrolling */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    margin: 0; /* Remove any unnecessary margins */
+    background-color: #000; /* Match background color */
 }
 
-.gallery-item iframe {
-    width: 100vw; /* Full viewport width for each item */
-    height: 100vh; /* Full viewport height */
-    object-fit: cover;
+.gallery-item img, .gallery-item iframe {
+    max-width: 90%; /* Limit width to fit within the gallery */
+    max-height: 80%; /* Limit height to avoid overflow */
+    object-fit: contain; /* Ensure the full image is visible while maintaining aspect ratio */
     border: none; /* Remove any borders */
 }
 
@@ -56,6 +59,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Gallery navigation button */
 button.gallery-button {
     position: absolute;
     top: 20px;
