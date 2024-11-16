@@ -66,12 +66,3 @@ images.forEach((src) => {
 
     galleryContainer.appendChild(img);
 });
-
-
-
-
-
-
-        
-        
-    
