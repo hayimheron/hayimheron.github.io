@@ -53,6 +53,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     ];
+
+
+        images.forEach((src) => {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = src.split("/").pop(); // Use the filename as alt text
+        img.classList.add("gallery-item");
+        galleryContainer.appendChild(img);
+    });
+});
+/*
 images.forEach((src) => {
     const img = document.createElement("img");
     img.src = src;
@@ -67,3 +78,4 @@ images.forEach((src) => {
     galleryContainer.appendChild(img);
     });
 }); // <-- Missing closing bracket and parenthesis added here
+*/
