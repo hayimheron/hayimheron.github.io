@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+        "photojournalism/13.png", //shower
 
         "photojournalism/18.jpg",
-        "photojournalism/13.png",
+
         "photojournalism/14.jpg",
         "photojournalism/15.jpg",
         "photojournalism/16.jpg",
