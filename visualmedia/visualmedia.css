@@ -12,7 +12,7 @@ body, html {
     display: flex;
     overflow-x: auto; /* Enable horizontal scrolling */
     scroll-behavior: smooth; /* Smooth scrolling experience */
-    height: 95vh; /* Slightly reduce viewport height for gallery */
+    height: 105vh; /* Slightly reduce viewport height for gallery */
     padding: 0;
     gap: 0; /* Remove any space between items */
     align-items: center; /* Vertically center the gallery items */
