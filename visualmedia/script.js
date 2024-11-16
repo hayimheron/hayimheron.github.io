@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/36.JPG",
         "photojournalism/11.png",
         "photojournalism/12.png",
-        "photojournalism/17.png",
-        "photojournalism/75.png",
-        "photojournalism/2.png",
+        "photojournalism/75.png", //chance
+        "photojournalism/17.png",  //demi
+        "photojournalism/2.png",  //alex honnold
         "photojournalism/20.jpg",
         "photojournalism/29.jpg",
         "photojournalism/10.png",
