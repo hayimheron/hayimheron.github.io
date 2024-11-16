@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
-        "photojournalism/10.png",
         "photojournalism/17.png",
         "photojournalism/75.png",
         "photojournalism/2.png",
         "photojournalism/11.png",
         "photojournalism/36.JPG",
         "photojournalism/10.jpeg",
+        "photojournalism/10.png",
 
 
 
