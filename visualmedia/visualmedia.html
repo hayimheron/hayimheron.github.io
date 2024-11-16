@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="visualmedia.css">
+    <style>
+        /* Style for the Home button */
+        .home-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            z-index: 1000; /* Ensure the button is always visible */
+        }
+
+        .home-button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <div class="bg">
 
-        <!-- Button to return to Photos -->
+                <!-- Button to return to Photos -->
         <button onclick="window.location.href='gallery.html'" class="gallery-button">Photos</button>
 
-        <p>Passion projects</p>
-        <br>
+        <!-- Home Button -->
+        <button onclick="window.location.href='index.html'" class="home-button">Home</button>
 
-        <!-- Gallery Container -->
+        <!-- Gallery Section -->
         <div class="gallery-container">
             <div class="gallery-item">
                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fherve.koubi%2Fposts%2Fpfbid031ndbDjFRRBwp2QeYBR5qxgaZxU8aZM8dcmZux5yjPxe4j4eEfCJU6LpKfisF86F9l&show_text=true&width=500" width="500" height="371" frameborder="0" allowfullscreen></iframe>
@@ -63,6 +82,7 @@
     </div>
 </body>
 </html>
+
 
 
 <!-- 
