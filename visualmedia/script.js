@@ -65,4 +65,5 @@ images.forEach((src) => {
     };
 
     galleryContainer.appendChild(img);
-});
+    });
+}); // <-- Missing closing bracket and parenthesis added here
