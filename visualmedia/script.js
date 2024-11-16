@@ -8,6 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/35.jpg", //cufflinks
         "photojournalism/20.jpg", //girl eye
         "photojournalism/36.JPG", //wild guy faces
+        "photojournalism/80.png",
+        "photojournalism/81.jpg",
+        "photojournalism/82.jpg",
+        "photojournalism/83.jpg",
+        "photojournalism/84.jpg",
+        "photojournalism/85.jpg",
+        "photojournalism/86.jpg",
+        "photojournalism/87.JPG",
+        "photojournalism/88.jpg",
+        "photojournalism/89.jpg",
+        "photojournalism/90.jpg",
         "photojournalism/11.png", //women peeing
         "photojournalism/12.png", //peeing
         "photojournalism/75.png", //chance
@@ -78,6 +89,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/70.jpg",
         "photojournalism/8.png",
         "photojournalism/1.png"
+
+        
 
 
     ];
