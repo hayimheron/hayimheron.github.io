@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const images = [
         "photojournalism/0.jpeg",
-        "photojournalism/01.png",
+        "photojournalism/01.png"
+
+        /* ,
         "photojournalism/1.jpg",
         "photojournalism/1.png",
         "photojournalism/10.jpeg",
@@ -50,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/70.jpg",
         "photojournalism/8.png",
         "photojournalism/9.jpeg"
+        */
     
     ];
 
