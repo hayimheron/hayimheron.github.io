@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         "photojournalism/89.jpg",
         "photojournalism/90.jpg",
-        "photojournalism/11.png", //women peeing
+
         "photojournalism/12.png", //peeing
         "photojournalism/75.png", //chance
         "photojournalism/17.png",  //demi
@@ -30,14 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         "photojournalism/10.jpeg", //jp slowshutter drag
+        "photojournalism/14.jpg", //slow shutter drag 
 
 
-
+        "photojournalism/11.png", //women peeing
         "photojournalism/13.png", //shower
 
         //"photojournalism/18.jpg", //slow shutter drag
 
-        "photojournalism/14.jpg", //slow shutter drag 
+
         "photojournalism/15.jpg", //andrea boyfriend
         "photojournalism/16.jpg",
         "photojournalism/19.jpg",
