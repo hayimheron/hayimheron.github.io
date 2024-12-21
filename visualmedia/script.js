@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/10.jpeg", //jp slowshutter drag
         "photojournalism/14.jpg", //slow shutter drag 
 
-
-        "photojournalism/11.png", //women peeing
         "photojournalism/13.png", //shower
+        "photojournalism/11.png", //women peeing
+
 
         //"photojournalism/18.jpg", //slow shutter drag
 
