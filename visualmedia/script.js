@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/10.jpeg", //jp slowshutter drag
         "photojournalism/14.jpg", //slow shutter drag 
 
+        
+        "photojournalism/15.jpg", //andrea boyfriend
         "photojournalism/13.png", //shower
         "photojournalism/11.png", //women peeing
 
@@ -39,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
         //"photojournalism/18.jpg", //slow shutter drag
 
 
-        "photojournalism/15.jpg", //andrea boyfriend
         "photojournalism/16.jpg",
         "photojournalism/19.jpg",
         "photojournalism/2.jpg",
