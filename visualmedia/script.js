@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const images = [
         "photojournalism/47.jpg", //musk
         "photojournalism/45.jpg", //dua
-        "photojournalism/35.jpg", //cufflinks
+        //"photojournalism/35.jpg", //cufflinks
         "photojournalism/20.jpg", //girl eye
         "photojournalism/36.JPG", //wild guy faces
         "photojournalism/80.png",
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         "photojournalism/15.jpg", //andrea boyfriend
         "photojournalism/13.png", //shower
-        "photojournalism/11.png", //women peeing
+        //"photojournalism/11.png", //women peeing
 
 
         //"photojournalism/18.jpg", //slow shutter drag
