@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
+        "photojournalism/HAY_3280.JPG",
         "photojournalism/47.jpg", //musk
         "photojournalism/45.jpg", //dua
         //"photojournalism/35.jpg", //cufflinks
