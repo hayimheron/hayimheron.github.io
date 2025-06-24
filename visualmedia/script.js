@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         "photojournalism/27.jpg",
 
-        //"photojournalism/88.jpg", rebekah hanging lamppost
+        "photojournalism/88.jpg", //rebekah hanging lamppost
         "photojournalism/3.jpg",
         "photojournalism/3.png",
         "photojournalism/30.jpg",
