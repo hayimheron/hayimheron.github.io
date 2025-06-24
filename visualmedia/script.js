@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
-        //"photojournalism/abc0.jpeg",
-        "photojournalism/abc321.JPG",
+        //"photojournalism/abc0.jpeg", duplicate
+        "photojournalism/abc321.JPG", //duplicate above
         "photojournalism/47.jpg", //musk
         "photojournalism/45.jpg", //dua
         //"photojournalism/35.jpg", //cufflinks
