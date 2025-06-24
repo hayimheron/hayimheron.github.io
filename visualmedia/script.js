@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
-        "photojournalism/abc0.jpeg",
+        //"photojournalism/abc0.jpeg",
         "photojournalism/abc321.JPG",
         "photojournalism/47.jpg", //musk
         "photojournalism/45.jpg", //dua
