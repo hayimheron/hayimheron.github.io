@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "photojournalism/LMCC224.jpg",
         "photojournalism/LMCC308.jpg",
         "photojournalism/LMCC312.jpg",
-        "photojournalism/LMCC336.jpg",
 
         //"photojournalism/abc0.jpeg", duplicate
         "photojournalism/abc321.JPG", //duplicate above
