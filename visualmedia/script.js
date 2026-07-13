@@ -3,24 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryContainer = document.getElementById("gallery");
 
     const images = [
-        "photojournalism/LMCC - DD18 -hheron-2yes.jpg",
-        "photojournalism/abc321.JPG",
-        "photojournalism/abc321.JPG",
-        "photojournalism/abc321.JPG",
-        "photojournalism/abc321.JPG",
-        LMCC - DD18 -hheron-224yes.jpg
-Add files via upload
-now
-LMCC - DD18 -hheron-2yes.jpg
-Add files via upload
-now
-LMCC - DD18 -hheron-308yes.jpg
-Add files via upload
-now
-LMCC - DD18 -hheron-312yes.jpg
-Add files via upload
-now
-LMCC - DD18 -hheron-336.yesjpg.jpg
+        "photojournalism/LMCC2.jpg",
+        "photojournalism/LMCC224.jpg",
+        "photojournalism/LMCC308.jpg",
+        "photojournalism/LMCC312.jpg",
+        "photojournalism/LMCC336.jpg",
+
         //"photojournalism/abc0.jpeg", duplicate
         "photojournalism/abc321.JPG", //duplicate above
         "photojournalism/47.jpg", //musk
